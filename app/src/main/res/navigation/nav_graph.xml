@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.docconverter.premium.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_convert"
+            app:destination="@id/navigation_convert" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_convert"
+        android:name="com.docconverter.premium.ui.convert.ConvertFragment"
+        android:label="@string/title_convert"
+        tools:layout="@layout/fragment_convert">
+        <action
+            android:id="@+id/action_convert_to_output_format"
+            app:destination="@id/navigation_output_format" />
+        <action
+            android:id="@+id/action_convert_to_conversion_options"
+            app:destination="@id/navigation_conversion_options" />
+        <action
+            android:id="@+id/action_convert_to_conversion_result"
+            app:destination="@id/navigation_conversion_result" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.docconverter.premium.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_history_to_document_details"
+            app:destination="@id/navigation_document_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.docconverter.premium.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_output_format"
+        android:name="com.docconverter.premium.ui.convert.OutputFormatFragment"
+        android:label="@string/select_output_format"
+        tools:layout="@layout/fragment_output_format" />
+
+    <fragment
+        android:id="@+id/navigation_conversion_options"
+        android:name="com.docconverter.premium.ui.convert.ConversionOptionsFragment"
+        android:label="Conversion Options"
+        tools:layout="@layout/fragment_conversion_options" />
+
+    <fragment
+        android:id="@+id/navigation_conversion_result"
+        android:name="com.docconverter.premium.ui.convert.ConversionResultFragment"
+        android:label="Conversion Result"
+        tools:layout="@layout/fragment_conversion_result">
+        <action
+            android:id="@+id/action_conversion_result_to_verification"
+            app:destination="@id/navigation_verification" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_document_details"
+        android:name="com.docconverter.premium.ui.document.DocumentDetailsFragment"
+        android:label="Document Details"
+        tools:layout="@layout/fragment_document_details">
+        <argument
+            android:name="documentId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_verification"
+        android:name="com.docconverter.premium.ui.verification.VerificationFragment"
+        android:label="@string/verification"
+        tools:layout="@layout/fragment_verification">
+        <argument
+            android:name="sourceDocumentId"
+            app:argType="string" />
+        <argument
+            android:name="convertedDocumentId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

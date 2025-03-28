@@ -1,0 +1,40 @@
+<resources>
+    <!-- Premium Material Design 3 color palette -->
+    <color name="primary">#005CB9</color>
+    <color name="primary_variant">#0046A0</color>
+    <color name="secondary">#4DB6AC</color>
+    <color name="secondary_variant">#009688</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F8F9FA</color>
+    <color name="error">#B00020</color>
+
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#000000</color>
+    <color name="on_surface">#000000</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <!-- Premium UI accents -->
+    <color name="accent_blue">#2196F3</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_red">#F44336</color>
+
+    <!-- Verification status colors -->
+    <color name="verification_success">#43A047</color>
+    <color name="verification_partial">#FB8C00</color>
+    <color name="verification_failed">#E53935</color>
+
+    <!-- Neutral colors -->
+    <color name="neutral_50">#FAFAFA</color>
+    <color name="neutral_100">#F5F5F5</color>
+    <color name="neutral_200">#EEEEEE</color>
+    <color name="neutral_300">#E0E0E0</color>
+    <color name="neutral_400">#BDBDBD</color>
+    <color name="neutral_500">#9E9E9E</color>
+    <color name="neutral_600">#757575</color>
+    <color name="neutral_700">#616161</color>
+    <color name="neutral_800">#424242</color>
+    <color name="neutral_900">#212121</color>
+</resources>

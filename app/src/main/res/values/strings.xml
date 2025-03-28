@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Premium Doc Converter</string>
+
+    <!-- Main Menu -->
+    <string name="title_home">Home</string>
+    <string name="title_convert">Convert</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Conversion Screen -->
+    <string name="select_document">Select Document</string>
+    <string name="select_output_format">Select Output Format</string>
+    <string name="convert_now">Convert Now</string>
+    <string name="batch_convert">Batch Convert</string>
+    <string name="verification">Verify Format Integrity</string>
+
+    <!-- Format Categories -->
+    <string name="documents">Documents</string>
+    <string name="spreadsheets">Spreadsheets</string>
+    <string name="presentations">Presentations</string>
+    <string name="emails">Emails</string>
+    <string name="images">Images</string>
+    <string name="markup">Markup</string>
+    <string name="ebooks">eBooks</string>
+    <string name="archives">Archives</string>
+    <string name="plain_text">Plain Text</string>
+
+    <!-- Format Verification -->
+    <string name="verification_success">100% Format Preserved</string>
+    <string name="verification_partial">Partial Format Preservation</string>
+    <string name="verification_failed">Format Verification Failed</string>
+    <string name="view_comparison">View Side-by-Side Comparison</string>
+    <string name="view_report">View Detailed Report</string>
+
+    <!-- Settings -->
+    <string name="conversion_quality">Conversion Quality</string>
+    <string name="output_location">Output Location</string>
+    <string name="default_format">Default Output Format</string>
+    <string name="auto_verification">Automatic Verification</string>
+    <string name="privacy_settings">Privacy Settings</string>
+    <string name="advanced_settings">Advanced Settings</string>
+
+    <!-- Dialogs -->
+    <string name="processing">Processing Document</string>
+    <string name="please_wait">Please wait while we preserve your document with 100% fidelity</string>
+    <string name="success">Success!</string>
+    <string name="error">Error</string>
+    <string name="success_message">Document converted with 100% format preservation</string>
+    <string name="error_message">An error occurred during conversion</string>
+
+    <!-- Actions -->
+    <string name="share">Share</string>
+    <string name="open">Open</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="export">Export</string>
+    <string name="verify">Verify</string>
+</resources>
