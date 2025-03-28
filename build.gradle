@@ -14,6 +14,9 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter() // For tesseract-android
+        maven { url "https://repository.aspose.com/repo/" } // For aspose-words
+        maven { url "https://jitpack.io" } // For additional dependencies
     }
 }
 
