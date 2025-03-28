@@ -47,3 +47,9 @@ jobs:
       run: |
         echo "Your APK will be available for download at https://github.com/dpandey82/premium-doc-converter/actions/runs/${{ github.run_id }}"
         echo "After the build completes, click on the build and look for the 'Artifacts' section"
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v3
+      with:
+        name: PremiumDocConverter
+        path: release/PremiumDocConverter.apk
